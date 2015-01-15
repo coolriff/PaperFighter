@@ -1,0 +1,20 @@
+#include "RaknetGlobals.h"
+
+RakNet::RakPeerInterface* peer;
+RakNet::SystemAddress otherPlayer;
+bool isServer;
+bool isClient;
+bool isConnected;
+bool otherGameOver;
+int currentLevel;
+int p1Score;
+int p2Score;
+float p1BulletX;
+float p1BulletY;
+float p2BulletX;
+float p2BulletY;
+int isP1;
+int isP2;
+int timeStamp;
+int p1Time;
+int p2Time;

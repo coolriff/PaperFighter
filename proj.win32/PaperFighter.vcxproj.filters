@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\AboutScene.cpp" />
+    <ClCompile Include="..\Classes\HelpScene.cpp" />
+    <ClCompile Include="..\Classes\RaknetGlobals.cpp" />
+    <ClCompile Include="..\Classes\NetworkServerScene.cpp" />
+    <ClCompile Include="..\Classes\NetworkClientScene.cpp" />
+    <ClCompile Include="..\Classes\MusicControl.cpp" />
+    <ClCompile Include="..\Classes\Plane.cpp" />
+    <ClCompile Include="..\Classes\Bullet.cpp" />
+    <ClCompile Include="..\Classes\Enemy.cpp" />
+    <ClCompile Include="..\Classes\NextLevelScene.cpp" />
+    <ClCompile Include="..\Classes\GameScene_1.cpp" />
+    <ClCompile Include="..\Classes\GameScene_2.cpp" />
+    <ClCompile Include="..\Classes\GameOver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\AboutScene.h" />
+    <ClInclude Include="..\Classes\HelpScene.h" />
+    <ClInclude Include="..\Classes\RaknetGlobals.h" />
+    <ClInclude Include="..\Classes\NetworkServerScene.h" />
+    <ClInclude Include="..\Classes\NetworkClientScene.h" />
+    <ClInclude Include="..\Classes\MusicControl.h" />
+    <ClInclude Include="..\Classes\Plane.h" />
+    <ClInclude Include="..\Classes\Bullet.h" />
+    <ClInclude Include="..\Classes\Enemy.h" />
+    <ClInclude Include="..\Classes\NextLevelScene.h" />
+    <ClInclude Include="..\Classes\GameScene_1.h" />
+    <ClInclude Include="..\Classes\GameScene_2.h" />
+    <ClInclude Include="..\Classes\GameOver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
